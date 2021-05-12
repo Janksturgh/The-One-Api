@@ -1,0 +1,118 @@
+// --------  Headings  --------
+
+@mixin heading-x-large {
+  font-family: $font-family-brand;
+  font-weight: 800;
+  font-size: 3.552rem;
+  letter-spacing: -0.166rem;
+  word-spacing: -0.166rem;
+  line-height: 1.09;
+}
+
+@mixin heading-large {
+  font-family: $font-family-brand;
+  font-weight: 800;
+  font-size: 2.441rem;
+  letter-spacing: -0.125rem;
+  word-spacing: -0.125rem;
+  line-height: 1.136;
+}
+
+@mixin heading-large-medium {
+  font-family: $font-family-brand;
+  font-weight: 800;
+  font-size: 1.953rem;
+  letter-spacing: -0.1rem;
+  word-spacing: -0.1rem;
+  line-height: 1.143;
+}
+
+@mixin heading-medium {
+  font-family: $font-family-brand;
+  font-weight: 800;
+  font-size: 1.563rem;
+  letter-spacing: -0.077rem;
+  word-spacing: -0.077rem;
+  line-height: 1.25;
+}
+
+@mixin heading-small-medium {
+  font-family: $font-family-brand;
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: -0.044rem;
+  word-spacing: -0.044rem;
+  line-height: 1.333;
+}
+
+@mixin heading-small {
+  font-family: $font-family-brand;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.038rem;
+  word-spacing: -0.038rem;
+  line-height: 1.388;
+}
+
+@mixin heading-x-small {
+  font-family: $font-family-brand;
+  font-weight: 700;
+  font-size: 0.833rem;
+  letter-spacing: -0.011rem;
+  word-spacing: -0.011rem;
+  line-height: 1.11;
+}
+
+// --------  Text/Paragraphs  --------
+@mixin text-standard {
+  font-family: $font-family-brand;
+  font-weight: $font-weight-book;
+  font-size: 1rem;
+  letter-spacing: -0.0167rem;
+  line-height: 1.666;
+}
+
+@mixin text-small {
+  font-family: $font-family-brand;
+  font-weight: $font-weight-book;
+  font-size: 0.833rem;
+  letter-spacing: -0.011rem;
+  line-height: 1.66;
+}
+
+@mixin text-tiny {
+  font-family: $font-family-brand;
+  font-weight: $font-weight-book;
+  font-size: 0.722rem;
+  letter-spacing: -0.011rem;
+  line-height: 1.538;
+}
+
+// ------- Default styles --------
+h1 {
+  @include heading-x-large;
+}
+
+h2 {
+  @include heading-large;
+}
+
+h3 {
+  @include heading-large-medium;
+}
+
+h4 {
+  @include heading-small-medium;
+}
+
+h5 {
+  @include heading-small;
+}
+
+h6 {
+  @include heading-x-small;
+}
+
+p {
+  @include text-standard;
+}
