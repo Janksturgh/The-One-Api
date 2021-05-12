@@ -1,9 +1,9 @@
 <template>
-  <header>
+  <header class="pt-5 pb-5">
     <nav class="navbar container is-justify-content-space-between" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <router-link to="/">
-          <h1 class="is-size-1 has-text-centered has-text-weight-bold">The One API</h1>
+          <h1 class="is-size-2 has-text-centered has-text-weight-bold">The One API</h1>
         </router-link>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>

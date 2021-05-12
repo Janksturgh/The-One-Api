@@ -5,6 +5,7 @@ import Router from "vue-router";
 import Vue from 'vue';
 import Home from "./views/Home.vue";
 import Movies from "./views/Movies.vue";
+import Books from "./views/Books.vue";
 
 Vue.use(Router);
 
@@ -18,6 +19,11 @@ const routes = [
 		path: "/movies",
 		name: "Movies",
 		component: Movies,
+	},
+	{
+		path: "/books",
+		name: "Books",
+		component: Books,
 	},
 ];
 

@@ -1,7 +1,7 @@
 <template>
 <div>
   <Header />
-  <Main />
+  <Main :characters="$attrs.data" />
   <Footer />
 </div>
 </template>
@@ -16,6 +16,11 @@
 			Header,
 			Main,
       Footer,
+		},
+		data() {
+			return {
+				characters: null
+			}
 		},
 	}
 </script>

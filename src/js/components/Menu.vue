@@ -1,7 +1,7 @@
 <template>
   <div id="navbarBasicExample" class="navbar-menu is-flex-grow-0">
     <div class="navbar-start">
-      <router-link
+      <!-- <router-link
               to="/"
               class="navbar-item">
         Home
@@ -11,6 +11,11 @@
         class="navbar-item">
           Movies
       </router-link>
+      <router-link
+        to="/books"
+        class="navbar-item">
+          Books
+      </router-link> -->
     </div>
   </div>
 </template>

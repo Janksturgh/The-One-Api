@@ -1,17 +1,18 @@
 <template>
   <div class="page-intro">
-    <h2>Home</h2>
-    <h3>About The Typography</h3>
-    <p>Assuming the root html font size is 18px we are using rem for font sizing through the website components</p>
-    <p>To check what font size is being used on the root html element of your project check in the computed tab on your dev tools</p>
-    <p>Font being used is Barlow which is hosted on Google fonts</p>
-    <p>Heading sizes and weights are in the typography.scss file with easily reusable mixins using design system based font styles - with the exception of not using gotham</p>
+    <h2 class="pb-4">Home</h2>
+    <h3 class="pb-2">About this website</h3>
+    {{ info }}
+    <p>The use of this website is to easily access information regarding lord of the rings</p>
+    <p>Which uses the Lord of the Rings API here 
+      <a href="https://the-one-api.dev/documentation" target="_blank">https://the-one-api.dev/documentation</a>
+    </p>
   </div>
 </template>
 
 <script>
 	export default {
-		name: "Home"
+		name: "Home",
 	}
 </script>
 
