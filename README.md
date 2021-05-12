@@ -1,5 +1,7 @@
 # The-One-Api
 
 ```yarn install```
-```yarn serve``` 
+
+```yarn serve```
+
 to get up and running go to ```localhost:8080```
